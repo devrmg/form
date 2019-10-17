@@ -134,7 +134,7 @@ function frmd_mail($report, $subject = ''){
     $charset = defined('PAGE_ENCODING') ? PAGE_ENCODING : 'UTF-8';
     if (defined('EMAIL_SENDER') && EMAIL_SENDER) $sender = EMAIL_SENDER;
     else $sender = 'robot@' . $_SERVER['HTTP_HOST'];
-    $headers  = "From: " . $sender . "\r\n";
+    $headers  = "From: renanmendescontact@gmail.com\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/plain; charset=" . $charset . "\r\n";
     $headers .="Content-Transfer-Encoding: 8bit";
